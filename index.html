@@ -3,14 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Tongpu (Cynthia) Zhao</title>
   <meta name="description" content="Tongpu (Cynthia) Zhao is a Ph.D. Candidate in Finance at Peking University Guanghua School of Management. Her research focuses on political economy, state capacity, and financial regulation." />
+
   <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .homepage-name {
+      max-width: none;
+      font-size: clamp(2.55rem, 4.35vw, 3.85rem);
+      font-weight: 560;
+      letter-spacing: -0.045em;
+      white-space: nowrap;
+      line-height: 1.08;
+    }
+
+    .homepage-name span {
+      color: var(--accent);
+      font-weight: 480;
+    }
+
+    .hero {
+      padding-top: 92px;
+    }
+
+    .subtitle {
+      margin-top: 24px;
+    }
+
+    .hero-copy {
+      align-self: center;
+    }
+
+    @media (max-width: 860px) {
+      .homepage-name {
+        white-space: normal;
+        font-size: clamp(2.55rem, 10vw, 3.8rem);
+      }
+    }
+  </style>
 </head>
+
 <body>
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#top">Tongpu Zhao</a>
+
       <nav class="nav-links">
         <a href="#about">About</a>
         <a href="#research">Research</a>
@@ -25,31 +64,27 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Political Economy · State Capacity · Financial Regulation</p>
-
-          <h1>Tongpu <span>(Cynthia)</span> Zhao</h1>
+          <h1 class="homepage-name">Tongpu&nbsp;<span>(Cynthia)</span>&nbsp;Zhao</h1>
 
           <p class="subtitle">
             Ph.D. Candidate in Finance<br />
             Guanghua School of Management, Peking University
           </p>
 
-          <p class="lead">
-            I study how states govern markets when formal authority, bureaucratic capacity,
-            and local incentives do not move together. My work connects political economy,
-            public economics, law and economics, and financial regulation, with a focus on
-            administrative, judicial, and financial institutions in China.
-          </p>
-
           <div class="action-row">
-            <a class="button primary" href="Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+            <a class="button primary cv-link" href="assets/Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">Download CV</a>
             <a class="button secondary" href="https://scholar.google.com/citations?user=RbEAFcsAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
             <a class="button secondary" href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7815004" target="_blank" rel="noopener">SSRN</a>
           </div>
         </div>
 
         <div class="hero-visual">
-          <img class="portrait" src="tongpu-zhao-portrait.jpg" alt="Portrait of Tongpu Zhao" />
+          <img
+            class="portrait"
+            src="assets/tongpu-zhao-portrait.jpg"
+            alt="Portrait of Tongpu Zhao"
+            onerror="this.onerror=null; this.src='tongpu-zhao-portrait.jpg';"
+          />
 
           <div class="hero-note">
             <p>
@@ -68,11 +103,13 @@
           <p class="eyebrow">About</p>
           <h2>Research profile</h2>
         </div>
+
         <div class="section-body">
           <p class="large-text">
             I am a Ph.D. Candidate in Finance at Guanghua School of Management, Peking University.
             My primary fields are political economy, economic history, and public economics.
           </p>
+
           <p>
             Across projects, I ask a common question: when formal structures of authority move,
             what actually changes on the ground? Empirically, I work with large-scale administrative
@@ -84,10 +121,12 @@
               <h3>Primary Fields</h3>
               <p>Political Economy, Economic History, Public Economics</p>
             </div>
+
             <div class="card">
               <h3>Topics</h3>
               <p>State Capacity, Bureaucracy, Law and Economics, Financial Regulation, Judicial Systems</p>
             </div>
+
             <div class="card">
               <h3>Methods</h3>
               <p>Administrative data, judicial records, regulatory texts, market data, causal inference, NLP</p>
@@ -110,6 +149,7 @@
 
         <div class="featured-paper">
           <div class="paper-index">01</div>
+
           <div>
             <div class="paper-meta">With Prof. Li-An Zhou · Draft available</div>
             <h3>Who Screens for the State? Recentralization and Local Control in Environmental Review</h3>
@@ -125,6 +165,16 @@
         <div class="paper-grid">
           <article class="paper-card">
             <div class="paper-index small">02</div>
+            <div class="paper-meta">Reject and Resubmit at <em>Management Science</em></div>
+            <h3>Securing the Care Workforce: How Public Insurance Commitments Reshape Human Capital Pipelines</h3>
+            <p>
+              Uses China’s Long-Term Care Insurance pilot and Gaokao admission data to study how public commitment reshapes
+              healthcare human capital pipelines.
+            </p>
+          </article>
+
+          <article class="paper-card">
+            <div class="paper-index small">03</div>
             <div class="paper-meta">Sole Author · Draft available · 2026 ARIA Annual Meeting</div>
             <h3>The Shadow Fiscal Financier: Insurance Capital, Regulatory Shocks, and Local Government Debt in China</h3>
             <p>
@@ -134,21 +184,11 @@
           </article>
 
           <article class="paper-card">
-            <div class="paper-index small">03</div>
-            <div class="paper-meta">with T. Hao & C. Wu · Major Revision at <em>Journal of Risk and Insurance</em></div>
+            <div class="paper-index small">04</div>
+            <div class="paper-meta">with T. Hao &amp; C. Wu · Major Revision at <em>Journal of Risk and Insurance</em></div>
             <h3>Accelerating Fragility: Climate Shocks, Information Contagion, and Systemic Risk in Opaque Insurance Markets</h3>
             <p>
               Studies how climate shocks and information contagion amplify systemic risk in opaque insurance markets.
-            </p>
-          </article>
-
-          <article class="paper-card">
-            <div class="paper-index small">04</div>
-            <div class="paper-meta">Reject and Resubmit at <em>Management Science</em></div>
-            <h3>Securing the Care Workforce: How Public Insurance Commitments Reshape Human Capital Pipelines</h3>
-            <p>
-              Uses China’s Long-Term Care Insurance pilot and Gaokao admission data to study how public commitment reshapes
-              healthcare human capital pipelines.
             </p>
           </article>
         </div>
@@ -161,29 +201,33 @@
           <p class="eyebrow">Publications</p>
           <h2>Published work</h2>
         </div>
+
         <div class="section-body">
           <ol class="publication-list">
             <li>
               <span class="pub-year">2025</span>
               <div>
-                Hao, T., Zhou, L., Hu, P., <strong>Zhao, T.</strong>, &amp; Wang, P. “From Hedge to Risk:
-                Nonlinear Effects of Climate Policy Uncertainty on Corporate Biodiversity Exposure.”
+                Hao, T., Zhou, L., Hu, P., <strong>Zhao, T.</strong>, &amp; Wang, P.
+                “From Hedge to Risk: Nonlinear Effects of Climate Policy Uncertainty on Corporate Biodiversity Exposure.”
                 <em>Energy Economics</em>, 108885.
               </div>
             </li>
+
             <li>
               <span class="pub-year">2025</span>
               <div>
-                Wanyan, R., <strong>Zhao, T.</strong>, Suo, L., &amp; Lai, G. C. “Digital Transformation and Total Factor
-                Productivity in Insurance Companies: A Catalyst or Inhibitor?” <em>The Geneva Papers on Risk and Insurance—Issues and Practice</em>,
-                50(1), 142–184.
+                Wanyan, R., <strong>Zhao, T.</strong>, Suo, L., &amp; Lai, G. C.
+                “Digital Transformation and Total Factor Productivity in Insurance Companies: A Catalyst or Inhibitor?”
+                <em>The Geneva Papers on Risk and Insurance—Issues and Practice</em>, 50(1), 142–184.
               </div>
             </li>
+
             <li>
               <span class="pub-year">2025</span>
               <div>
-                Wanyan, R., Sun, Y., Suo, L., &amp; <strong>Zhao, T.</strong> “How Does Directors’ and Officers’ Liability Insurance Affect
-                the Fulfilment of Social Responsibility by State-Owned Enterprises?” <em>The Geneva Papers on Risk and Insurance—Issues and Practice</em>, 1–27.
+                Wanyan, R., Sun, Y., Suo, L., &amp; <strong>Zhao, T.</strong>
+                “How Does Directors’ and Officers’ Liability Insurance Affect the Fulfilment of Social Responsibility by State-Owned Enterprises?”
+                <em>The Geneva Papers on Risk and Insurance—Issues and Practice</em>, 1–27.
               </div>
             </li>
           </ol>
@@ -196,7 +240,7 @@
         <div class="section-title">
           <p class="eyebrow">CV</p>
           <h2>Education and affiliations</h2>
-          <a class="button primary compact" href="Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">Open CV PDF</a>
+          <a class="button primary compact cv-link" href="assets/Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">Open CV PDF</a>
         </div>
 
         <div class="section-body">
@@ -208,6 +252,7 @@
                 <p>Ph.D. in Finance. Advisors: Prof. Li-An Zhou and Prof. Ji Shen. Expected 2028.</p>
               </div>
             </div>
+
             <div class="timeline-item">
               <span class="timeline-date">2022–2024</span>
               <div>
@@ -215,6 +260,7 @@
                 <p>Master in Finance.</p>
               </div>
             </div>
+
             <div class="timeline-item">
               <span class="timeline-date">2018–2022</span>
               <div>
@@ -222,17 +268,21 @@
                 <p>B.Econ. in Insurance.</p>
               </div>
             </div>
+
             <div class="timeline-item">
               <span class="timeline-date">2025–Present</span>
               <div>
                 <h3>Research Fellowships</h3>
-                <p>Enterprise Research Institute, Development Research Center of the State Council; China Judicial Big Data Institute, Supreme People’s Court of China.</p>
+                <p>
+                  Enterprise Research Institute, Development Research Center of the State Council;
+                  China Judicial Big Data Institute, Supreme People’s Court of China.
+                </p>
               </div>
             </div>
           </div>
 
           <div class="tag-row">
-            <span>Harvard-Yenching Institute & UTokyo Joint Advanced Program</span>
+            <span>Harvard-Yenching Institute &amp; UTokyo Joint Advanced Program</span>
             <span>PKU Modern Japan Research Program</span>
             <span>PKU Academic Innovation Award</span>
             <span>China Development Research Scholarship</span>
@@ -245,9 +295,10 @@
     <section class="section">
       <div class="container section-grid">
         <div class="section-title">
-          <p class="eyebrow">Teaching & Skills</p>
+          <p class="eyebrow">Teaching &amp; Skills</p>
           <h2>Teaching, data, and tools</h2>
         </div>
+
         <div class="section-body">
           <div class="card-grid">
             <div class="card">
@@ -258,6 +309,7 @@
                 <li>Excellent TA Award, Top 10%</li>
               </ul>
             </div>
+
             <div class="card">
               <h3>Data Engineering</h3>
               <ul>
@@ -266,6 +318,7 @@
                 <li>Administrative and judicial data construction</li>
               </ul>
             </div>
+
             <div class="card">
               <h3>Programming</h3>
               <ul>
@@ -289,11 +342,22 @@
             or collaboration inquiries, please contact me by email.
           </p>
         </div>
+
         <div class="contact-card">
-          <p><span>Email</span><a href="mailto:zhaotongpu@stu.pku.edu.cn">zhaotongpu@stu.pku.edu.cn</a></p>
-          <p><span>Phone</span>(+86) 198-0021-1525</p>
-          <p><span>Profiles</span>
-            <a href="https://scholar.google.com/citations?user=RbEAFcsAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a> ·
+          <p>
+            <span>Email</span>
+            <a href="mailto:zhaotongpu@stu.pku.edu.cn">zhaotongpu@stu.pku.edu.cn</a>
+          </p>
+
+          <p>
+            <span>Phone</span>
+            (+86) 198-0021-1525
+          </p>
+
+          <p>
+            <span>Profiles</span>
+            <a href="https://scholar.google.com/citations?user=RbEAFcsAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
+            ·
             <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7815004" target="_blank" rel="noopener">SSRN</a>
           </p>
         </div>
@@ -307,5 +371,20 @@
       <span>Last updated: June 2026</span>
     </div>
   </footer>
+
+  <script>
+    /* Fallback for CV path: works whether the PDF is in /assets or root. */
+    document.addEventListener("DOMContentLoaded", function () {
+      fetch("assets/Tongpu_Zhao_CV.pdf", { method: "HEAD" })
+        .then(function (response) {
+          if (!response.ok) throw new Error("CV not found in assets.");
+        })
+        .catch(function () {
+          document.querySelectorAll(".cv-link").forEach(function (link) {
+            link.href = "Tongpu_Zhao_CV.pdf";
+          });
+        });
+    });
+  </script>
 </body>
 </html>
