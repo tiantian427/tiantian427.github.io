@@ -4,53 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Tongpu (Cynthia) Zhao</title>
-  <meta name="description" content="Tongpu (Cynthia) Zhao is a Ph.D. Candidate in Finance at Peking University Guanghua School of Management. Her research focuses on political economy, state capacity, and financial regulation." />
+  <title>Tongpu (Cynthia) Zhao | Finance Ph.D. Student at Peking University</title>
+  <meta
+    name="description"
+    content="Tongpu (Cynthia) Zhao is a Finance Ph.D. student at Peking University Guanghua School of Management. Her research spans political economy, corporate finance, state capacity, regulation, and insurance."
+  />
 
   <link rel="stylesheet" href="styles.css" />
-
-  <style>
-    .homepage-name {
-      max-width: none;
-      font-size: clamp(2.55rem, 4.35vw, 3.85rem);
-      font-weight: 560;
-      letter-spacing: -0.045em;
-      white-space: nowrap;
-      line-height: 1.08;
-    }
-
-    .homepage-name span {
-      color: var(--accent);
-      font-weight: 480;
-    }
-
-    .hero {
-      padding-top: 92px;
-    }
-
-    .subtitle {
-      margin-top: 24px;
-    }
-
-    .hero-copy {
-      align-self: center;
-    }
-
-    @media (max-width: 860px) {
-      .homepage-name {
-        white-space: normal;
-        font-size: clamp(2.55rem, 10vw, 3.8rem);
-      }
-    }
-  </style>
 </head>
 
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="#top">Tongpu Zhao</a>
+      <a class="brand" href="#top" aria-label="Back to top">Tongpu Zhao</a>
 
-      <nav class="nav-links">
+      <nav class="nav-links" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
@@ -64,184 +32,191 @@
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <h1 class="homepage-name">Tongpu&nbsp;<span>(Cynthia)</span>&nbsp;Zhao</h1>
+          <p class="kicker">Finance · Political Economy · State Capacity</p>
+          <h1>Tongpu <span>(Cynthia)</span> Zhao</h1>
 
           <p class="subtitle">
-            Ph.D. Candidate in Finance<br />
+            Ph.D. Student in Finance<br />
             Guanghua School of Management, Peking University
           </p>
 
-          <div class="action-row">
-            <a class="button primary cv-link" href="assets/Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">Download CV</a>
-            <a class="button secondary" href="https://scholar.google.com/citations?user=RbEAFcsAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
-            <a class="button secondary" href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7815004" target="_blank" rel="noopener">SSRN</a>
+          <p class="hero-statement">
+            I study how shifts in political and administrative authority reshape firms,
+            markets, and public service provision. My work sits at the intersection of
+            political economy, corporate finance, and state capacity.
+          </p>
+
+          <div class="link-row">
+            <a href="Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">CV</a>
+            <a href="https://scholar.google.com/citations?user=RbEAFcsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7815004" target="_blank" rel="noopener">SSRN</a>
           </div>
         </div>
 
-        <div class="hero-visual">
+        <figure class="portrait-wrap">
           <img
             class="portrait"
-            src="assets/tongpu-zhao-portrait.jpg"
+            src="tongpu-zhao-portrait.jpg"
             alt="Portrait of Tongpu Zhao"
-            onerror="this.onerror=null; this.src='tongpu-zhao-portrait.jpg';"
           />
-        </div>
+        </figure>
       </div>
     </section>
 
     <section id="about" class="section">
-      <div class="container section-grid">
-        <div class="section-title">
+      <div class="container split-grid">
+        <div class="section-label">
           <p class="eyebrow">About</p>
-          <h2>Research profile</h2>
+          <h2>Research agenda</h2>
         </div>
 
-        <div class="section-body">
+        <div class="section-copy">
           <p class="large-text">
-            I am a Ph.D. Candidate in Finance at Guanghua School of Management, Peking University.
-            My primary fields are political economy, economic history, and public economics.
+            My research asks a recurring question: when formal authority moves,
+            what changes on the ground?
           </p>
 
           <p>
-            Across projects, I ask a common question: when formal structures of authority move,
-            what actually changes on the ground? Empirically, I work with large-scale administrative
-            data, judicial case records, regulatory texts, and financial market data.
+            I combine large-scale administrative data, regulatory records, judicial cases,
+            market data, and text-based measurement to study institutional design in China.
+            A recurring theme across my projects is the gap between formal reforms and the
+            strategic responses they induce among governments, firms, intermediaries, and households.
           </p>
 
-          <div class="card-grid">
-            <div class="card">
-              <h3>Primary Fields</h3>
-              <p>Political Economy, Economic History, Public Economics</p>
+          <div class="theme-grid">
+            <div class="theme">
+              <span>01</span>
+              <h3>State capacity &amp; bureaucracy</h3>
+              <p>Recentralization, administrative control, implementation, and local adaptation.</p>
             </div>
 
-            <div class="card">
-              <h3>Topics</h3>
-              <p>State Capacity, Bureaucracy, Law and Economics, Financial Regulation, Judicial Systems</p>
+            <div class="theme">
+              <span>02</span>
+              <h3>Finance &amp; regulation</h3>
+              <p>Institutional constraints, regulatory shocks, credit markets, and public-sector finance.</p>
             </div>
 
-            <div class="card">
-              <h3>Methods</h3>
-              <p>Administrative data, judicial records, regulatory texts, market data, causal inference, NLP</p>
+            <div class="theme">
+              <span>03</span>
+              <h3>Insurance &amp; human capital</h3>
+              <p>How public insurance commitments reshape labor supply, training, and care markets.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="research" class="section soft-section">
+    <section id="research" class="section section-tinted">
       <div class="container">
-        <div class="section-heading-wide">
+        <div class="section-intro">
           <p class="eyebrow">Research</p>
-          <h2>Working papers and work in progress</h2>
+          <h2>Selected working papers</h2>
           <p>
-            My current projects study how institutional reforms reshape screening,
-            financing, adjudication, and risk transmission under imperfect state capacity.
+            I keep this page selective. The projects below best represent my current research agenda.
           </p>
         </div>
 
-        <div class="featured-paper">
-          <div class="paper-index">01</div>
-
-          <div>
-            <div class="paper-meta">With Prof. Li-An Zhou · Draft available</div>
-            <h3>Who Screens for the State? Recentralization and Local Control in Environmental Review</h3>
-            <p>
-              This paper examines a recentralization reform where environmental review authority shifted
-              from county to city governments. We find that instead of simply strengthening capacity,
-              the reform reorganized local protectionism and created selective intermediary chains that
-              retain low-visibility compliance problems.
-            </p>
-          </div>
-        </div>
-
-        <div class="paper-grid">
-          <article class="paper-card">
-            <div class="paper-index small">02</div>
-            <div class="paper-meta">Reject and Resubmit at <em>Management Science</em></div>
-            <h3>Securing the Care Workforce: How Public Insurance Commitments Reshape Human Capital Pipelines</h3>
-            <p>
-              Uses China’s Long-Term Care Insurance pilot and Gaokao admission data to study how public commitment reshapes
-              healthcare human capital pipelines.
-            </p>
+        <div class="paper-list">
+          <article class="paper">
+            <div class="paper-number">01</div>
+            <div class="paper-content">
+              <p class="paper-meta">with Li-An Zhou · Working paper</p>
+              <h3>Who Screens for the State? Recentralization and Local Control in Environmental Review</h3>
+              <p>
+                This paper studies a reform that shifted environmental review authority from
+                county to city governments. Using large-scale project-level administrative data,
+                we examine how recentralization changes local matching, screening, delay, and
+                strategic adaptation rather than simply increasing enforcement capacity.
+              </p>
+            </div>
           </article>
 
-          <article class="paper-card">
-            <div class="paper-index small">03</div>
-            <div class="paper-meta">Sole Author · Draft available · 2026 ARIA Annual Meeting</div>
-            <h3>The Shadow Fiscal Financier: Insurance Capital, Regulatory Shocks, and Local Government Debt in China</h3>
-            <p>
-              Identifies insurance capital as a shadow financier for local government debt. Using a granular Bartik IV
-              based on liability-side regulatory shocks, I show that insurer yield hunger compresses LGFV credit spreads.
-            </p>
+          <article class="paper">
+            <div class="paper-number">02</div>
+            <div class="paper-content">
+              <p class="paper-meta">Reject and Resubmit · <em>Management Science</em></p>
+              <h3>Securing the Care Workforce: How Public Insurance Commitments Reshape Human Capital Pipelines</h3>
+              <p>
+                Using China’s Long-Term Care Insurance pilots and higher-education admissions data,
+                this paper studies how public insurance commitments reshape nursing education,
+                labor supply, and the broader care-service ecosystem.
+              </p>
+            </div>
           </article>
 
-          <article class="paper-card">
-            <div class="paper-index small">04</div>
-            <div class="paper-meta">with T. Hao &amp; C. Wu · Major Revision at <em>Journal of Risk and Insurance</em></div>
-            <h3>Accelerating Fragility: Climate Shocks, Information Contagion, and Systemic Risk in Opaque Insurance Markets</h3>
-            <p>
-              Studies how climate shocks and information contagion amplify systemic risk in opaque insurance markets.
-            </p>
+          <article class="paper">
+            <div class="paper-number">03</div>
+            <div class="paper-content">
+              <p class="paper-meta">Sole-authored working paper</p>
+              <h3>The Shadow Fiscal Financier: Insurance Capital, Regulatory Shocks, and Local Government Debt in China</h3>
+              <p>
+                This paper studies insurance capital as a source of shadow fiscal financing.
+                It uses liability-side regulatory shocks to identify how insurer demand affects
+                local government financing vehicle credit spreads.
+              </p>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
     <section id="publications" class="section">
-      <div class="container section-grid">
-        <div class="section-title">
+      <div class="container split-grid">
+        <div class="section-label">
           <p class="eyebrow">Publications</p>
-          <h2>Published work</h2>
+          <h2>Selected published work</h2>
         </div>
 
-        <div class="section-body">
+        <div class="section-copy">
           <ol class="publication-list">
             <li>
               <span class="pub-year">2025</span>
-              <div>
+              <p>
                 Hao, T., Zhou, L., Hu, P., <strong>Zhao, T.</strong>, &amp; Wang, P.
                 “From Hedge to Risk: Nonlinear Effects of Climate Policy Uncertainty on Corporate Biodiversity Exposure.”
                 <em>Energy Economics</em>, 108885.
-              </div>
+              </p>
             </li>
 
             <li>
               <span class="pub-year">2025</span>
-              <div>
+              <p>
                 Wanyan, R., <strong>Zhao, T.</strong>, Suo, L., &amp; Lai, G. C.
-                “Digital Transformation and Total Factor Productivity in Insurance Companies: A Catalyst or Inhibitor?”
+                “Digital Transformation and Total Factor Productivity in Insurance Companies:
+                A Catalyst or Inhibitor?”
                 <em>The Geneva Papers on Risk and Insurance—Issues and Practice</em>, 50(1), 142–184.
-              </div>
+              </p>
             </li>
 
             <li>
               <span class="pub-year">2025</span>
-              <div>
+              <p>
                 Wanyan, R., Sun, Y., Suo, L., &amp; <strong>Zhao, T.</strong>
-                “How Does Directors’ and Officers’ Liability Insurance Affect the Fulfilment of Social Responsibility by State-Owned Enterprises?”
+                “How Does Directors’ and Officers’ Liability Insurance Affect the Fulfilment
+                of Social Responsibility by State-Owned Enterprises?”
                 <em>The Geneva Papers on Risk and Insurance—Issues and Practice</em>, 1–27.
-              </div>
+              </p>
             </li>
           </ol>
         </div>
       </div>
     </section>
 
-    <section id="cv" class="section soft-section">
-      <div class="container section-grid">
-        <div class="section-title">
+    <section id="cv" class="section section-tinted">
+      <div class="container split-grid">
+        <div class="section-label">
           <p class="eyebrow">CV</p>
-          <h2>Education and affiliations</h2>
-          <a class="button primary compact cv-link" href="assets/Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">Open CV PDF</a>
+          <h2>Education &amp; affiliations</h2>
+          <a class="text-link" href="Tongpu_Zhao_CV.pdf" target="_blank" rel="noopener">Open full CV →</a>
         </div>
 
-        <div class="section-body">
+        <div class="section-copy">
           <div class="timeline">
             <div class="timeline-item">
               <span class="timeline-date">2024–Present</span>
               <div>
                 <h3>Peking University, Guanghua School of Management</h3>
-                <p>Ph.D. in Finance. Advisors: Prof. Li-An Zhou and Prof. Ji Shen. Expected 2028.</p>
+                <p>Ph.D. in Finance. Advisors: Li-An Zhou and Ji Shen. Expected 2028.</p>
               </div>
             </div>
 
@@ -262,9 +237,9 @@
             </div>
 
             <div class="timeline-item">
-              <span class="timeline-date">2025–Present</span>
+              <span class="timeline-date">Research</span>
               <div>
-                <h3>Research Fellowships</h3>
+                <h3>Selected affiliations</h3>
                 <p>
                   Enterprise Research Institute, Development Research Center of the State Council;
                   China Judicial Big Data Institute, Supreme People’s Court of China.
@@ -273,85 +248,29 @@
             </div>
           </div>
 
-          <div class="tag-row">
-            <span>Harvard-Yenching Institute &amp; UTokyo Joint Advanced Program</span>
-            <span>PKU Modern Japan Research Program</span>
-            <span>PKU Academic Innovation Award</span>
-            <span>China Development Research Scholarship</span>
-            <span>National Scholarship for Graduate Students</span>
+          <div class="recognition">
+            <p class="recognition-label">Selected programs &amp; recognition</p>
+            <p>
+              Harvard-Yenching Institute &amp; UTokyo Joint Advanced Program ·
+              PKU Modern Japan Research Program · PKU Academic Innovation Award ·
+              China Development Research Scholarship · National Scholarship for Graduate Students
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container section-grid">
-        <div class="section-title">
-          <p class="eyebrow">Teaching &amp; Skills</p>
-          <h2>Teaching, data, and tools</h2>
-        </div>
-
-        <div class="section-body">
-          <div class="card-grid">
-            <div class="card">
-              <h3>Teaching</h3>
-              <ul>
-                <li>Invited Tutor: Advanced Microeconomics, Ph.D. level, English, Fall 2025</li>
-                <li>Teaching Assistant: Chinese Economy and Graduate Microeconomics</li>
-                <li>Excellent TA Award, Top 10%</li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>Data Engineering</h3>
-              <ul>
-                <li>Web Scraping, OCR, NLP, Transformer Models</li>
-                <li>Regular expressions and text processing</li>
-                <li>Administrative and judicial data construction</li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>Programming</h3>
-              <ul>
-                <li>Python, Stata, MATLAB, LaTeX</li>
-                <li>Chinese: Native</li>
-                <li>English: Fluent, IELTS 7.5</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
+    <section id="contact" class="section contact-section">
       <div class="container contact-grid">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>Get in touch</h2>
-          <p>
-            For research discussions, seminar invitations, conference communication,
-            or collaboration inquiries, please contact me by email.
-          </p>
+          <h2>Research conversations are welcome.</h2>
         </div>
 
-        <div class="contact-card">
-          <p>
-            <span>Email</span>
-            <a href="mailto:zhaotongpu@stu.pku.edu.cn">zhaotongpu@stu.pku.edu.cn</a>
-          </p>
-
-          <p>
-            <span>Phone</span>
-            (+86) 198-0021-1525
-          </p>
-
-          <p>
-            <span>Profiles</span>
-            <a href="https://scholar.google.com/citations?user=RbEAFcsAAAAJ&hl=zh-CN" target="_blank" rel="noopener">Google Scholar</a>
-            ·
-            <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7815004" target="_blank" rel="noopener">SSRN</a>
-          </p>
+        <div class="contact-links">
+          <a href="mailto:zhaotongpu@stu.pku.edu.cn">zhaotongpu@stu.pku.edu.cn</a>
+          <a href="https://scholar.google.com/citations?user=RbEAFcsAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=7815004" target="_blank" rel="noopener">SSRN</a>
         </div>
       </div>
     </section>
@@ -360,23 +279,8 @@
   <footer class="footer">
     <div class="container footer-inner">
       <span>© 2026 Tongpu (Cynthia) Zhao</span>
-      <span>Last updated: June 2026</span>
+      <span>Last updated: September 2026</span>
     </div>
   </footer>
-
-  <script>
-    /* Fallback for CV path: works whether the PDF is in /assets or root. */
-    document.addEventListener("DOMContentLoaded", function () {
-      fetch("assets/Tongpu_Zhao_CV.pdf", { method: "HEAD" })
-        .then(function (response) {
-          if (!response.ok) throw new Error("CV not found in assets.");
-        })
-        .catch(function () {
-          document.querySelectorAll(".cv-link").forEach(function (link) {
-            link.href = "Tongpu_Zhao_CV.pdf";
-          });
-        });
-    });
-  </script>
 </body>
 </html>
