@@ -1127,3 +1127,56 @@ h3 {
   font-style: italic;
   text-align: right;
 }
+
+
+.why-questions {
+  border-top: 1px solid var(--line);
+}
+
+.why-questions-head {
+  max-width: 760px;
+  margin-bottom: 34px;
+}
+
+.why-questions-head h2 {
+  margin: 6px 0 12px;
+}
+
+.why-questions-head p:last-child {
+  color: var(--ink-soft);
+  font-size: 1.04rem;
+}
+
+.why-questions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.why-card {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper);
+}
+
+.why-card h3 {
+  margin: 8px 0 14px;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.why-card p:not(.eyebrow) {
+  color: var(--ink-soft);
+}
+
+.why-card .text-link {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+@media (max-width: 760px) {
+  .why-questions-grid {
+    grid-template-columns: 1fr;
+  }
+}
