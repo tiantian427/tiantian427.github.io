@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Elsewhere | Tongpu Zhao</title>
+<meta name="description" content="Things that do not belong on an academic CV."/>
+<link rel="canonical" href="https://tongpuzhao.com/elsewhere.html"/>
+<meta name="robots" content="noindex,follow"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta name="theme-color" content="#fbfbf8"/>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css"/>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">Tongpu Zhao</a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero elsewhere-hero">
+    <div class="container narrow">
+      <p class="kicker">Elsewhere</p>
+      <h1 class="page-title">Things that do not belong on an academic CV.</h1>
+      <p class="page-lead">Music, objects, places, stray observations, minor enthusiasms, and other professionally unnecessary material.</p>
+    </div>
+  </section>
+
+  <section class="section section-tinted">
+    <div class="container">
+      <div class="offduty-grid">
+        <div class="offduty-card"><p class="eyebrow">Listening</p><h3>On repeat</h3><p>Things that insist on becoming the soundtrack for a while.</p></div>
+        <div class="offduty-card"><p class="eyebrow">Places</p><h3>Worth remembering</h3><p>Cities, rooms, meals, walks, and other coordinates that linger.</p></div>
+        <div class="offduty-card"><p class="eyebrow">Objects</p><h3>Unnecessary attachment</h3><p>Things with enough design intensity to become a minor intellectual problem.</p></div>
+        <div class="offduty-card"><p class="eyebrow">Small obsessions</p><h3>Currently unresolved</h3><p>Temporary, recurring, and sometimes completely unreasonable.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section field-notes-section">
+    <div class="container guestbook-wrap">
+      <div class="guestbook-intro">
+        <p class="eyebrow">Field notes</p>
+        <h2>A public notebook for small thoughts.</h2>
+        <p>Short observations, things I liked, things I noticed, and whatever else survived the day. Replies are welcome.</p>
+      </div>
+      <div id="waline"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© 2026 Tongpu (Cynthia) Zhao</span>
+    <span><a href="index.html">Back to the serious part</a> · <a href="ko.html">한국어 소개</a></span>
+  </div>
+</footer>
+
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://tongpu-waline.vercel.app',
+    path: '/elsewhere-notes',
+    lang: 'en',
+    login: 'enable',
+    meta: ['nick', 'mail'],
+    requiredMeta: [],
+    imageUploader: false,
+    search: false,
+    commentSorting: 'latest',
+    noRss: true,
+    noCopyright: true,
+    locale: {
+      nick: 'Name',
+      mail: 'Email',
+      placeholder: 'Write something unnecessarily specific...',
+      submit: 'Post',
+      anonymous: 'Anonymous'
+    }
+  });
+</script>
+
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "85184f09543946d6b816d26540cc2917"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
