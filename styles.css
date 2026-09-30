@@ -875,3 +875,12 @@ h3 {
 #waline .wl-editor {
   font-family: inherit;
 }
+
+
+#waline .wl-meta {
+  display: none;
+}
+
+#waline .wl-footer {
+  display: none;
+}
