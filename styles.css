@@ -89,6 +89,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 22px;
+  align-items: center;
 }
 
 .nav-links a {
@@ -106,8 +107,15 @@ a:hover {
 }
 
 .nav-egg {
-  font-size: 1rem !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.05em;
+  height: 1.05em;
+  font-size: .92rem !important;
   line-height: 1;
+  position: relative;
+  top: 2px;
   filter: saturate(.82);
 }
 
