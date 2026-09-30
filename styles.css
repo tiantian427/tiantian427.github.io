@@ -881,3 +881,44 @@ h3 {
   display: none;
 }
 
+
+
+/* =========================
+   Recent
+   ========================= */
+
+.recent-list {
+  border-top: 1px solid var(--line);
+}
+
+.recent-item {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  gap: 22px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.recent-item h3 {
+  margin-bottom: 4px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+.recent-item p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: .94rem;
+}
+
+.recent-item:hover h3 {
+  color: var(--accent-dark);
+}
+
+@media (max-width: 680px) {
+  .recent-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
