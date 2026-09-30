@@ -115,7 +115,7 @@ a:hover {
   font-size: .92rem !important;
   line-height: 1;
   position: relative;
-  top: 2px;
+  top: 0;
   filter: saturate(.82);
 }
 
