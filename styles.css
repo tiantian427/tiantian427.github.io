@@ -935,3 +935,48 @@ h3 {
   font-weight: 650;
   border-bottom: 1px solid rgba(53, 87, 97, .24);
 }
+
+
+/* =========================
+   Elsewhere
+   ========================= */
+
+.elsewhere-hero .page-title {
+  max-width: 820px;
+}
+
+.offduty-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.offduty-card {
+  min-height: 190px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.62);
+}
+
+.offduty-card h3 {
+  margin-bottom: 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+.offduty-card p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.field-notes-section #waline .wl-panel,
+.field-notes-section #waline .wl-card {
+  background: rgba(255,255,255,.36);
+}
+
+@media (max-width: 680px) {
+  .offduty-grid {
+    grid-template-columns: 1fr;
+  }
+}
