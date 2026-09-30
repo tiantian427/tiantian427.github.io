@@ -980,3 +980,40 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================
+   Elsewhere Motto
+   ========================= */
+
+.motto-section {
+  padding-top: 96px;
+  padding-bottom: 110px;
+}
+
+.motto-wrap {
+  max-width: 920px;
+  text-align: center;
+}
+
+.motto-wrap > .eyebrow {
+  margin-bottom: 34px;
+}
+
+.motto-figure {
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.motto-figure img {
+  width: 100%;
+  display: block;
+  padding: 18px;
+}
+
+.motto-figure figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: .82rem;
+  letter-spacing: .02em;
+}
